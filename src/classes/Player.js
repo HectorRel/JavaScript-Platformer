@@ -15,7 +15,7 @@ class Player {
         this.sides = {
             bottom: this.position.y + this.height
         }
-        this.gravity = .2;
+        this.gravity = .75;
     }
 
     draw() {

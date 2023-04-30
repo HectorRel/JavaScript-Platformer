@@ -8,7 +8,7 @@ window.addEventListener('keydown', (event) => {
             break;
         case 'w':
             if (player.velocity.y === 0)
-                player.velocity.y = -10;
+                player.velocity.y = -18;
             break;
     }
 })
